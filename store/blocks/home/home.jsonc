@@ -96,7 +96,7 @@
 
   "rich-text#link": {
     "props": {
-      "text": "teste",
+      "text": "Seja bem vindo !",
       "blockClass": "link"
     }
   }
