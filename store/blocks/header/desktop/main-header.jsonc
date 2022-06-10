@@ -1,5 +1,4 @@
 {
-  
   "sticky-layout#top-desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -20,26 +19,9 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "search-bar",
-      "login",
+      "login#desktop",
       "minicart.v2"
     ]
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Maria Bonita",
-      "href": "/",
-      "url": "assets/img/logomariabonita.png",
-      "width": "137",
-      "height": "67"
-    }
   },
   "flex-layout.row#menu-desktop": {
     "props": {

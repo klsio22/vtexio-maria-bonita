@@ -1,0 +1,13 @@
+{
+  "login#desktop": {
+    "props": {
+      "iconLabel": "Minha conta",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "blockClass": "login-desktop"
+    }
+  }
+}
