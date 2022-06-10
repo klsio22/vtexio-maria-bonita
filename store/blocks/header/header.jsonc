@@ -11,125 +11,15 @@
       "header-layout.mobile"
     ]
   },
-  "header-layout.desktop": {
-    "children": [
-      "sticky-layout#top-desktop",
-      "flex-layout.row#menu-desktop"
-    ]
-  },
-  "flex-layout.row#menu-desktop": {
-    "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "left",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#category-menu"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "sticky-layout#top-desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "flex-layout.row#top-desktop"
-    ]
-  },
-  "flex-layout.row#top-desktop": {
-    "props": {
-      "blockClass": "main-header",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "login",
-      "minicart.v2"
-    ]
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-menu"
-    ]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Maria Bonita",
-      "href": "/",
-      "url": "assets/img/logomariabonita.png",
-      "width": "137",
-      "height": "67"
-    }
-  },
   "header-layout.mobile": {
     "children": [
       "sticky-layout#1-mobile"
     ]
   },
-  "sticky-layout#1-mobile": {
+  "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "sticky-layout#top-desktop",
+      "flex-layout.row#menu-desktop"
     ]
-  },
-  "flex-layout.row#1-mobile": {
-    "children": [
-      "drawer",
-      "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
-  },
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "logo#mobile": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/logomariabonita.png",
-      "width": "70"
-    }
   }
 }
