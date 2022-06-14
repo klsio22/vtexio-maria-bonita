@@ -1,0 +1,47 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-collars",
+      "menu-item#category-earrings"
+    ]
+  },
+  "menu-item#category-collars": {
+    "props": {
+      "id": "menu-item-category-collars",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colares/",
+        "noFollow": false,
+        "tagTitle": "Colares",
+        "text": "Colares"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-types-collars"
+    ]
+  },
+  "menu-item#category-earrings": {
+    "props": {
+      "id": "menu-item-category-earrings",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brincos/",
+        "noFollow": false,
+        "tagTitle": "Brincos",
+        "text": "Brincos"
+      }
+    },
+     "blocks": [
+      "vtex.menu@2.x:submenu#category-types-earrings"
+    ] 
+  }
+}

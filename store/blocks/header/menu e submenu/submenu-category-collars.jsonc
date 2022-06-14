@@ -1,0 +1,114 @@
+{
+  "vtex.menu@2.x:submenu#category-types-collars": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-types-collars"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-types-collars": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-collars-chains",
+      "menu-item#category-collars-choke",
+      "menu-item#category-collars-necklaces-set",
+      "menu-item#category-collars-pendants",
+      "menu-item#category-collars-scapulars",
+      "menu-item#category-collars-rivieras"
+    ]
+  },
+  "menu-item#category-collars-chains": {
+    "props": {
+      "id": "menu-item-category-collars-chains",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/correntes/",
+        "noFollow": false,
+        "tagTitle": "Correntes",
+        "text": "Correntes"
+      }
+    }
+  },
+  "menu-item#category-collars-choke": {
+    "props": {
+      "id": "menu-item-category-collars-choke",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/choke/",
+        "noFollow": false,
+        "tagTitle": "Choke",
+        "text": "Choke"
+      }
+    }
+  },
+  "menu-item#category-collars-necklaces-set": {
+    "props": {
+      "id": "menu-item-category-collars-necklaces-set",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/conjunto/",
+        "noFollow": false,
+        "tagTitle": "Conjunto",
+        "text": "Conjunto"
+      }
+    }
+  },
+  /* ------------ */
+  "menu-item#category-collars-pendants": {
+    "props": {
+      "id": "menu-item-category-collars-pendants",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pingentes/",
+        "noFollow": false,
+        "tagTitle": "Pingentes",
+        "text": "Pingentes"
+      }
+    }
+  },
+  "menu-item#category-collars-scapulars": {
+    "props": {
+      "id": "menu-item-category-collars-scapulars",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/escapularios/",
+        "noFollow": false,
+        "tagTitle": "Escapulários",
+        "text": "Escapulários"
+      }
+    }
+  },
+  "menu-item#category-collars-rivieras": {
+    "props": {
+      "id": "menu-item-category-collars-rivieras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rivieras/",
+        "noFollow": false,
+        "tagTitle": "Rivieras",
+        "text": "Rivieras"
+      }
+    }
+  }
+}

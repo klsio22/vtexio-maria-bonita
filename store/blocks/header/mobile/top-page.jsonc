@@ -40,7 +40,7 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel"
+      "menu-item#category-collars"
     ],
     "props": {
       "orientation": "vertical"
