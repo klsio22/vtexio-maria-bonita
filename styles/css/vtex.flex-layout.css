@@ -6,6 +6,8 @@
 .flexRowContent--menu-link {
   background-color: #f7b787 !important;
   color: #fff;
+  justify-content: center;
+  gap: 20px;
 }
 
 .flexRowContent--main-header {
@@ -37,17 +39,13 @@
   align-items: center;
 }
 
-.flexRow--deals .flexCol {
-  align-items: center;
-}
-
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
 }
 
 .flexCol--productCountCol {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .flexCol--orderByCol {
