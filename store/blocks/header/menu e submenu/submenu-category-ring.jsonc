@@ -1,7 +1,65 @@
 {
-  "vtex.menu@2.x:submenu#category-types-ring":{
-    
+  "vtex.menu@2.x:submenu#category-types-ring": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-types-ring"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-types-ring": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-ring-phalanges",
+      "menu-item#category-ring-solitary",
+      "menu-item#category-ring-sideboard"
+    ]
+  },
+  "menu-item#category-ring-phalanges": {
+    "props": {
+      "id": "menu-item-category-ring-phalanges",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/falangens/",
+        "noFollow": false,
+        "tagTitle": "Falangens",
+        "text": "Falangens"
+      }
+    }
+  },
+  "menu-item#category-ring-solitary": {
+    "props": {
+      "id": "menu-item-category-ring-solitary",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/solitarios/",
+        "noFollow": false,
+        "tagTitle": "Solitários",
+        "text": "Solitários"
+      }
+    }
+  },
+  "menu-item#category-ring-sideboard": {
+    "props": {
+      "id": "menu-item-category-ring-sideboard",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aparador/",
+        "noFollow": false,
+        "tagTitle": "Aparador",
+        "text": "Aparador"
+      }
+    }
   }
-
-  
 }
