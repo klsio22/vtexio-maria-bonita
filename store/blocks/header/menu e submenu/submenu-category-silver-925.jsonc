@@ -1,3 +1,49 @@
 {
-  "vtex.menu@2.x:submenu#category-types-silver-925": {}
+  "vtex.menu@2.x:submenu#category-types-silver-925": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-types-silver"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-types-silver": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-silver-earrings",
+      "menu-item#category-silver-collars"
+    ]
+  },
+  "menu-item#category-silver-earrings": {
+    "props": {
+      "id": "menu-item-category-support-material-boxes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "prata/brinco/",
+        "noFollow": false,
+        "tagTitle": "Brinco",
+        "text": "Brinco"
+      }
+    }
+  },
+  "menu-item#category-silver-collars": {
+    "props": {
+      "id": "menu-item-category-support-material-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "prata/colares/",
+        "noFollow": false,
+        "tagTitle": "Colares",
+        "text": "Colares"
+      }
+    }
+  }
 }

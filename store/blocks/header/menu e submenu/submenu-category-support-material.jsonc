@@ -1,5 +1,49 @@
 {
-  "vtex.menu@2.x:submenu#category-types-support-material":{
-    
+  "vtex.menu@2.x:submenu#category-types-support-material": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-types-support-material"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-types-support-material": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-support-material-boxes",
+      "menu-item#category-support-material-bags"
+    ]
+  },
+  "menu-item#category-support-material-boxes": {
+    "props": {
+      "id": "menu-item-category-support-material-boxes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/caixas/",
+        "noFollow": false,
+        "tagTitle": "Caixas",
+        "text": "Caixas"
+      }
+    }
+  },
+  "menu-item#category-support-material-bags": {
+    "props": {
+      "id": "menu-item-category-support-material-bags",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sacolinhas/",
+        "noFollow": false,
+        "tagTitle": "Sacolinhas",
+        "text": "Sacolinhas"
+      }
+    }
   }
 }

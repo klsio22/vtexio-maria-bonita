@@ -1,6 +1,82 @@
 {
-  "vtex.menu@2.x:submenu#category-types-custom":{
-    
+  "vtex.menu@2.x:submenu#category-types-custom": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-types-custom"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-types-custom": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-custom-chains",
+      "menu-item#category-custom-earrings",
+      "menu-item#category-custom-bracelet",
+      "menu-item#category-custom-ring"
+    ]
+  },
+  "menu-item#category-custom-chains": {
+    "props": {
+      "id": "menu-item-category-custom-chains",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "personalizados/colar/",
+        "noFollow": false,
+        "tagTitle": "Colar",
+        "text": "Colar"
+      }
+    }
+  },
+  "menu-item#category-custom-earrings": {
+    "props": {
+      "id": "menu-item-category-custom-earrings",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "personalizados/brincos/",
+        "noFollow": false,
+        "tagTitle": "Brincos",
+        "text": "Brincos"
+      }
+    }
+  },
+  "menu-item#category-custom-bracelet": {
+    "props": {
+      "id": "menu-item-category-custom-bracelet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "personalizados/pulseira/",
+        "noFollow": false,
+        "tagTitle": "Pulseira",
+        "text": "Pulseira"
+      }
+    }
+  },
+  "menu-item#category-custom-ring": {
+    "props": {
+      "id": "menu-item-category-custom-ring",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "personalizados/anel/",
+        "noFollow": false,
+        "tagTitle": "Anel",
+        "text": "Anel"
+      }
+    }
   }
-
+  
 }

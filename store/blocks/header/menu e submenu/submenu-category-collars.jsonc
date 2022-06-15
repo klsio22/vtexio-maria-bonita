@@ -65,7 +65,6 @@
       }
     }
   },
-  /* ------------ */
   "menu-item#category-collars-pendants": {
     "props": {
       "id": "menu-item-category-collars-pendants",
