@@ -23,7 +23,7 @@
       "minicart.v2"
     ]
   },
-  "flex-layout.row#menu-desktop": {
+   "flex-layout.row#menu-desktop": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "left",
@@ -42,5 +42,5 @@
     "children": [
       "vtex.menu@2.x:menu#category-menu"
     ]
-  }
+  } 
 }
