@@ -1,10 +1,4 @@
 {
-  
-  "sticky-layout#1-mobile": {
-    "children": [
-      "flex-layout.row#1-mobile"
-    ]
-  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"

@@ -1,15 +1,15 @@
 {
-  "sticky-layout#top-desktop": {
+ /*  "sticky-layout#top-desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "top-header"
     },
     "children": [
       "flex-layout.row#top-desktop"
     ]
-  },
+  }, */
   "flex-layout.row#top-desktop": {
     "props": {
-      "blockClass": "main-header",
+      "blockClass": "top-header",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,

@@ -11,15 +11,21 @@
       "header-layout.mobile"
     ]
   },
-  "header-layout.mobile": {
+  "header-layout.desktop": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
     "children": [
-      "sticky-layout#1-mobile"
+      "flex-layout.row#top-desktop",
+      "flex-layout.row#menu-desktop"
     ]
   },
-  "header-layout.desktop": {
+  "header-layout.mobile": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
     "children": [
-      "sticky-layout#top-desktop",
-      "flex-layout.row#menu-desktop"
+      "flex-layout.row#1-mobile"
     ]
   }
 }
