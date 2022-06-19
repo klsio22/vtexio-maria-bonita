@@ -6,7 +6,6 @@
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
       "login",
@@ -34,7 +33,7 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-collars"
+    
     ],
     "props": {
       "orientation": "vertical"
