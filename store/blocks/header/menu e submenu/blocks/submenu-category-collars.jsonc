@@ -28,7 +28,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/correntes/",
+        "href": "/colares/correntes/",
         "noFollow": false,
         "tagTitle": "Correntes",
         "text": "Correntes"
@@ -43,7 +43,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/choke/",
+        "href": "/colares/choke/",
         "noFollow": false,
         "tagTitle": "Choke",
         "text": "Choke"
@@ -58,7 +58,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/conjunto/",
+        "href": "/colares/conjunto/",
         "noFollow": false,
         "tagTitle": "Conjunto",
         "text": "Conjunto"
@@ -73,7 +73,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pingentes/",
+        "href": "/colares/pingentes/",
         "noFollow": false,
         "tagTitle": "Pingentes",
         "text": "Pingentes"
@@ -88,7 +88,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/escapularios/",
+        "href": "/colares/escapularios/",
         "noFollow": false,
         "tagTitle": "Escapulários",
         "text": "Escapulários"
@@ -103,7 +103,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/rivieras/",
+        "href": "/colares/rivieras/",
         "noFollow": false,
         "tagTitle": "Rivieras",
         "text": "Rivieras"

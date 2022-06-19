@@ -5,7 +5,13 @@
     },
     "children": [
       "menu-item#category-collars",
-      "menu-item#category-custom"
+      "menu-item#category-earrings",
+      "menu-item#category-ring",
+      "menu-item#category-male",
+      "menu-item#category-support-material",
+      "menu-item#category-custom",
+      "menu-item#category-silver-925",
+      "menu-item#category-bracelet"
     ]
   },
   "menu-item#category-collars": {
@@ -26,6 +32,66 @@
       "vtex.menu@2.x:submenu#category-types-collars"
     ]
   },
+  "menu-item#category-earrings": {
+    "props": {
+      "id": "menu-item-category-earrings",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brincos/",
+        "noFollow": false,
+        "tagTitle": "Brincos",
+        "text": "Brincos"
+      }
+    }
+  },
+  "menu-item#category-ring": {
+    "props": {
+      "id": "menu-item-category-ring",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aneis/",
+        "noFollow": false,
+        "tagTitle": "Anéis",
+        "text": "Anéis"
+      }
+    }
+  },
+  "menu-item#category-male": {
+    "props": {
+      "id": "menu-item-category-male",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/masculino/",
+        "noFollow": false,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    }
+  },
+  "menu-item#category-support-material": {
+    "props": {
+      "id": "menu-item-category-support-material",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apoio/",
+        "noFollow": false,
+        "tagTitle": "Material e apoio",
+        "text": "Material de apoio"
+      }
+    }
+  },
   "menu-item#category-custom": {
     "props": {
       "id": "menu-item-category-custom",
@@ -43,5 +109,35 @@
     "blocks": [
       "vtex.menu@2.x:submenu#category-types-custom"
     ]
+  },
+  "menu-item#category-silver-925": {
+    "props": {
+      "id": "menu-item-category-silver-925",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/prata-925/",
+        "noFollow": false,
+        "tagTitle": "Prata 925",
+        "text": "Prata 925"
+      }
+    }
+  },
+  "menu-item#category-bracelet": {
+    "props": {
+      "id": "menu-item-category-silver-925",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pulseiras/",
+        "noFollow": false,
+        "tagTitle": "Pulseiras",
+        "text": "Pulseiras"
+      }
+    }
   }
 }

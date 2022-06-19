@@ -1,3 +1,7 @@
 .flexRowContent--main-header {
   gap: 2rem !important;
 }
+
+.flexRowContent--top-header{
+  padding: 1rem 0;
+}

@@ -25,18 +25,5 @@
       "url": "assets/img/header/logomariabonita.png",
       "width": "70"
     }
-  },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
-  },
-  "menu#drawer": {
-    "children": [
-    
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
   }
 }

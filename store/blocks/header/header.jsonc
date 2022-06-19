@@ -16,7 +16,7 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "flex-layout.row#top-desktop",
+      "sticky-layout#top-desktop",
       "flex-layout.row#menu-desktop"
     ]
   },

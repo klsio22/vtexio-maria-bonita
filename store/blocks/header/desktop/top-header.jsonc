@@ -1,12 +1,13 @@
 {
- /*  "sticky-layout#top-desktop": {
+  "sticky-layout#top-desktop": {
     "props": {
-      "blockClass": "top-header"
+      "blockClass": "top-header",
+      "experimentalOptimizeRendering": true
     },
     "children": [
       "flex-layout.row#top-desktop"
     ]
-  }, */
+  },
   "flex-layout.row#top-desktop": {
     "props": {
       "blockClass": "top-header",
@@ -23,7 +24,7 @@
       "minicart.v2"
     ]
   },
-   "flex-layout.row#menu-desktop": {
+  "flex-layout.row#menu-desktop": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "left",
@@ -42,5 +43,5 @@
     "children": [
       "vtex.menu@2.x:menu#category-menu"
     ]
-  } 
+  }
 }
