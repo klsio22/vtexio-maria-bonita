@@ -1,76 +1,4 @@
 {
-  "vtex.menu@2.x:menu#Products": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
-    ]
-  },
-  "menu-item#news": {
-    "props": {
-      "id": "menu-item-news",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
-      }
-    }
-  },
-  "menu-item#blackfriday": {
-    "props": {
-      "id": "menu-item-black-friday",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
-      }
-    }
-  },
-  "menu-item#sale": {
-    "props": {
-      "id": "menu-item-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    }
-  },
-  "menu-item#personalization": {
-    "props": {
-      "id": "menu-item-personalization",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
-      }
-    }
-  },
-
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
       "orientation": "vertical"
@@ -113,7 +41,6 @@
       }
     }
   },
-
   "menu-item#tvs": {
     "props": {
       "id": "menu-item-tvs",
@@ -129,7 +56,7 @@
       }
     }
   },
-
+ 
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
@@ -188,7 +115,6 @@
       }
     }
   },
-
   "vtex.menu@2.x:menu#footer-clothing": {
     "props": {
       "orientation": "vertical"
@@ -200,98 +126,6 @@
       "menu-item#shirts",
       "menu-item#sweatshirt",
       "menu-item#cropped"
-    ]
-  },
-
-  "vtex.menu@2.x:menu#footer-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
-    ]
-  },
-
-  "menu-item#clothing-mobile": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
-  },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
-  },
-
-  "vtex.menu@2.x:menu#clothing-accordion": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
-  },
-
-  "menu-item#decoration-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
     ]
   },
 
@@ -310,7 +144,6 @@
       }
     }
   },
-
   "menu-item#shorts": {
     "props": {
       "id": "menu-item-shorts",
@@ -326,7 +159,6 @@
       }
     }
   },
-
   "menu-item#tank-tops": {
     "props": {
       "id": "menu-item-tank-tops",
@@ -342,7 +174,6 @@
       }
     }
   },
-
   "menu-item#shirts": {
     "props": {
       "id": "menu-item-shirts",
@@ -358,7 +189,6 @@
       }
     }
   },
-
   "menu-item#sweatshirt": {
     "props": {
       "id": "menu-item-sweat-shirts",
@@ -374,7 +204,6 @@
       }
     }
   },
-
   "menu-item#cropped": {
     "props": {
       "id": "menu-item-cropped",
