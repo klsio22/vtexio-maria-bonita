@@ -3,6 +3,9 @@
 }
 
 .autoCompleteOuterContainer {
-  border: none;
   border-bottom: 1px solid;
+}
+
+.autoCompleteOuterContainer :first-child {
+  border: none;
 }

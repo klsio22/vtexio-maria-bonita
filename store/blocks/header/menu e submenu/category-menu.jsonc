@@ -11,7 +11,8 @@
       "menu-item#category-support-material",
       "menu-item#category-custom",
       "menu-item#category-silver-925",
-      "menu-item#category-bracelet"
+      "menu-item#category-bracelet",
+      "menu-item#category-childish"
     ]
   },
   "menu-item#category-collars": {
@@ -127,7 +128,7 @@
   },
   "menu-item#category-bracelet": {
     "props": {
-      "id": "menu-item-category-silver-925",
+      "id": "menu-item-category-bracelet",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -137,6 +138,21 @@
         "noFollow": false,
         "tagTitle": "Pulseiras",
         "text": "Pulseiras"
+      }
+    }
+  },
+  "menu-item#category-childish": {
+    "props": {
+      "id": "menu-item-category-childish",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil/",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
       }
     }
   }
