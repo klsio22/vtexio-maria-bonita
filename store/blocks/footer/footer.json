@@ -29,6 +29,7 @@
   },
   "accepted-payment-methods": {
     "props": {
+      "horizontalAlign": "center",
       "paymentMethods": [
         "MasterCard",
         "Visa",
