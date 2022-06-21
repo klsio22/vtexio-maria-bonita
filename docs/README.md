@@ -4,6 +4,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Our boilerplate theme to create stores in the VTEX IO platform.
 
+## Objectives
+Create a store using vtex io blocks or using react components
+
 ## Tutorial
 To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
 
@@ -32,3 +35,6 @@ Store GraphQL is a middleware to access all VTEX APIs.
 - [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
 - [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
 - [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
+
+## Link to Workspace
+https://klsio22--praxseg.myvtex.com/
