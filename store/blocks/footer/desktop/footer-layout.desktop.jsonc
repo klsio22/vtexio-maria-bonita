@@ -9,7 +9,7 @@
   "flex-layout.row#footer-1-links-desktop": {
     "children": [
       "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-access",
       "vtex.menu@2.x:menu#footer-bags",
       "social-networks"
     ],

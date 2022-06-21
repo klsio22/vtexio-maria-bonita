@@ -49,7 +49,7 @@
     },
     "children": [
       "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
+      "menu-item#access-mobile",
       "menu-item#sale-mobile"
     ]
   },
@@ -88,7 +88,7 @@
       "menu-item#cropped"
     ]
   },
-  "menu-item#decoration-mobile": {
+  "menu-item#access-mobile": {
     "props": {
       "itemProps": {
         "tagTitle": "Decoration",
@@ -96,22 +96,22 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#decoration"
+      "vtex.menu@2.x:submenu.accordion#access"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
+  "vtex.menu@2.x:submenu.accordion#access": {
     "children": [
-      "vtex.menu@2.x:menu#footer-decoration-mobile"
+      "vtex.menu@2.x:menu#footer-access-mobile"
     ]
   },
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+  "vtex.menu@2.x:menu#footer-access-mobile": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#orders",
+      "menu-item#my-cart",
+      "menu-item#my-address"
     ]
   },
   "menu-item#sale-mobile": {
@@ -135,9 +135,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#orders",
+      "menu-item#my-cart",
+      "menu-item#my-address"
     ]
   }
 }
