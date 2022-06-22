@@ -10,7 +10,7 @@
     "children": [
       "vtex.menu@2.x:menu#footer-about-us",
       "vtex.menu@2.x:menu#footer-access",
-      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-find-us"                                                                                                                             ,
       "social-networks"
     ],
     "props": {

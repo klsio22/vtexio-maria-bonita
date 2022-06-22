@@ -18,7 +18,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acesso/pedidos",
+        "href": "/institucional/pedidos",
         "noFollow": true,
         "tagTitle": "meus medidos",
         "text": "meus pedidos"
@@ -48,7 +48,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acesso/endereço",
+        "href": "/institucional/endereço",
         "noFollow": true,
         "tagTitle": "meu endereço",
         "text": "meu endereço"
@@ -63,7 +63,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acesso/lista-endereço",
+        "href": "/institucional/lista-endereço",
         "noFollow": true,
         "tagTitle": "Lista endereço",
         "text": "lista endereço"

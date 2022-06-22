@@ -81,17 +81,17 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#installments",
+      "menu-item#about-us",
+      "menu-item#terms",
+      "menu-item#exchange-policies",
+      "menu-item#delivery-and-shipping"
     ]
   },
   "menu-item#access-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "access",
+        "tagTitle": "ACESSO",
         "text": "ACESSO"
       }
     },

@@ -1,0 +1,28 @@
+{
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:menu#footer-find-us"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-find-us": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#footer-find-us"
+    ]
+  },
+  "rich-text#footer-find-us": {
+    "props": {
+      "text": "avenida getúlio vargas, 1946 - centro feira de santana, ba cep: 44075425",
+      "blockClass": "footer"
+    }
+  }
+}
