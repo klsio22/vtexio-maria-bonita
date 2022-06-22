@@ -8,9 +8,9 @@
   },
   "flex-layout.row#footer-1-links-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#footer-about-us",
-      "vtex.menu@2.x:menu#footer-access",
-      "vtex.menu@2.x:menu#footer-find-us"                                                                                                                             ,
+      "menu-item#title-about-us",
+      "menu-item#title-access",
+      "menu-item#title-find-us",
       "social-networks"
     ],
     "props": {
@@ -18,6 +18,39 @@
       "paddingTop": 6,
       "paddingBottom": 3
     }
+  },
+  "menu-item#title-about-us": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "SOBRE NÓS",
+        "text": "SOBRE NÓS"
+      }
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-about-us"
+    ]
+  },
+  "menu-item#title-access": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "ACESSO",
+        "text": "ACESSO"
+      }
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-access"
+    ]
+  },
+  "menu-item#title-find-us": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "ENCONTRE-NOS",
+        "text": "ENCONTRE-NOS"
+      }
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-find-us"
+    ]
   },
   "flex-layout.row#footer-2-payments-methods-desktop": {
     "children": [

@@ -1,5 +1,5 @@
 {
-  "footer-layout.mobile": {
+  /* "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
@@ -141,5 +141,5 @@
       "menu-item#my-address",
       "menu-item#list-address"
     ]
-  }
+  } */
 }
