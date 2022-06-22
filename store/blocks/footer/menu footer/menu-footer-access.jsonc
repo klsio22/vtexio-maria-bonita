@@ -6,7 +6,8 @@
     "children": [
       "menu-item#orders",
       "menu-item#my-cart",
-      "menu-item#my-address"
+      "menu-item#my-address",
+      "menu-item#list-address"
     ]
   },
   "menu-item#orders": {
@@ -17,10 +18,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/access/pedidos",
+        "href": "/acesso/pedidos",
         "noFollow": true,
-        "tagTitle": "meus-medidos",
-        "text": "Meus Pedidos"
+        "tagTitle": "meus medidos",
+        "text": "meus pedidos"
       }
     }
   },
@@ -34,8 +35,8 @@
         "type": "internal",
         "href": "/checkout/",
         "noFollow": true,
-        "tagTitle": "meu-carrinho",
-        "text": "Meu carrinho"
+        "tagTitle": "meu carrinho",
+        "text": "meu carrinho"
       }
     }
   },
@@ -47,10 +48,25 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/access/address",
+        "href": "/acesso/endereço",
         "noFollow": true,
-        "tagTitle": "meu-endereço",
-        "text": "Meu endereço"
+        "tagTitle": "meu endereço",
+        "text": "meu endereço"
+      }
+    }
+  },
+  "menu-item#list-address": {
+    "props": {
+      "id": "menu-item-list-address",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acesso/lista-endereço",
+        "noFollow": true,
+        "tagTitle": "Lista endereço",
+        "text": "lista endereço"
       }
     }
   }

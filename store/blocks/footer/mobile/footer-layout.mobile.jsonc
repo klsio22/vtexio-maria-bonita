@@ -61,7 +61,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/clothing/",
         "noFollow": true,
         "tagTitle": "Clothing",
         "text": "Clothing"
@@ -91,8 +91,8 @@
   "menu-item#access-mobile": {
     "props": {
       "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
+        "tagTitle": "access",
+        "text": "ACESSO"
       }
     },
     "blocks": [
@@ -111,7 +111,8 @@
     "children": [
       "menu-item#orders",
       "menu-item#my-cart",
-      "menu-item#my-address"
+      "menu-item#my-address",
+      "menu-item#list-address"
     ]
   },
   "menu-item#sale-mobile": {
@@ -137,7 +138,8 @@
     "children": [
       "menu-item#orders",
       "menu-item#my-cart",
-      "menu-item#my-address"
+      "menu-item#my-address",
+      "menu-item#list-address"
     ]
   }
 }
