@@ -3,3 +3,8 @@
   justify-content: center;
   margin: 1rem 0;
 }
+
+:global(.vtex-list-context-0-x-list--footer-social-networks){
+  display: flex;
+  margin-bottom: 1rem;
+}

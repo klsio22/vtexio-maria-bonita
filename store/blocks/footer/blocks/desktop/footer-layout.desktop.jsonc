@@ -1,80 +1,4 @@
 {
-  /*   "footer-layout.desktop": {
-    "props": {
-      "blockClass": [
-        "container",
-        "footer-menus"
-      ]
-    },
-    "children": [
-      "flex-layout.row#footer-1-links-desktop",
-      "flex-layout.row#footer-3-copyright-desktop",
-      "flex-layout.row#footer-2-payments-methods-desktop"
-    ]
-  },
-  "flex-layout.row#footer-1-links-desktop": {
-    "children": [
-      "menu-item#title-about-us",
-      "menu-item#title-access",
-      "menu-item#title-find-us",
-      "social-networks"
-    ],
-    "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
-    }
-  },
-  "menu-item#title-about-us": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "SOBRE NÓS",
-        "text": "SOBRE NÓS"
-      }
-    },
-    "children": [
-      "vtex.menu@2.x:menu#footer-about-us"
-    ]
-  },
-  "menu-item#title-access": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "ACESSO",
-        "text": "ACESSO"
-      }
-    },
-    "children": [
-      "vtex.menu@2.x:menu#footer-access"
-    ]
-  },
-  "menu-item#title-find-us": {
-    "props": {
-      "blockClass": "menu-title-find",
-      "itemProps": {
-        "tagTitle": "ENCONTRE-NOS",
-        "text": "ENCONTRE-NOS"
-      }
-    },
-    "children": [
-      "vtex.menu@2.x:menu#footer-find-us"
-    ]
-  },
-  "flex-layout.row#footer-2-payments-methods-desktop": {
-    "children": [
-      "accepted-payment-methods"
-    ],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "flex-layout.row#footer-3-copyright-desktop": {
-    "children": [
-      "rich-text#footer"
-    ],
-    "props": {
-      "blockClass": "credits"
-    }
-  } */
   "footer-layout.desktop": {
     "props": {
       "blockClass": [
@@ -106,12 +30,13 @@
       "paddingBottom": 6
     },
     "children": [
-      "rich-text#footer-menu-1-desktop",
-      "rich-text#footer-menu-2-desktop",
-      "rich-text#footer-find-us"
+      "rich-text#footer-menu-about-us",
+      "rich-text#footer-menu-access",
+      "rich-text#footer-find-us",
+      "flex-layout.col#footer-last-block-menu"
     ]
   },
-  "rich-text#footer-menu-1-desktop": {
+  "rich-text#footer-menu-about-us": {
     "props": {
       "blockClass": "footer-menu",
       "textAlignment": "LEFT",
@@ -119,7 +44,7 @@
       "text": "###### SOBRE NÓS \n [seja uma consultora](//institucional/consultora) \n[condições de parcelamentos](/institucional/parcelas) \n [Sobre a maria bonita](/institucional/sobre) \n [termos e condições](/institucional/termos)\n [políticas de trocas](/institucional/trocas)\n [políticas de entrega e frete](institucional/frete)\n [garantia](/institucional/garantia)\n [cuidados](/institucional/cuidados)\n [nossas lojas](/institucional/nossas-lojas) \n [revenda](/institucional/revenda) \n [fale conosco](/institucional/fale-conosco)"
     }
   },
-  "rich-text#footer-menu-2-desktop": {
+  "rich-text#footer-menu-access": {
     "props": {
       "blockClass": "footer-menu",
       "textAlignment": "LEFT",
@@ -129,10 +54,25 @@
   },
   "rich-text#footer-find-us": {
     "props": {
-      
       "text": "###### ENCONTRE-NOS \n avenida getúlio vargas, 1946 - centro \n feira de santana, ba \n cep: 44075425",
       "blockClass": "footer-store-text",
       "textAlignment": "LEFT"
+    }
+  },
+  "flex-layout.col#footer-last-block-menu": {
+    "children": [
+      "rich-text#footer-social-medias",
+      "flex-layout.row#footer-social-networks-images",
+      "flex-layout.col#footer-security-images"
+    ],
+    "props": {
+      "blockClass": "last-block-menu"
+    }
+  },
+  "rich-text#footer-social-medias": {
+    "props": {
+      "text": "###### NOSSAS REDES SOCIAIS",
+      "blockClass": "footer-title-social-medias"
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#footer-social-networks-images": {
+    "children": [
+      "list-context.image-list#footer-social-networks"
+    ],
+    "props": {
+      "blockClass": [
+        "social-networks"
+      ]
+    }
+  },
+  "list-context.image-list#footer-social-networks": {
+    "children": [
+      "list-context-renderer#footer-social-networks"
+    ],
+    "props": {
+      "height": 50,
+      "images": [
+        {
+          "image": "assets/img/footer/facebook.png",
+          "width": "24px"
+        },
+        {
+          "image": "assets/img/footer/instagram.png",
+          "width": "24px"
+        }
+      ]
+    }
+  },
+  "list-context-renderer#footer-social-networks": {
+    "props": {
+      "blockClass": "footer-social-networks",
+      "listElement": "div",
+      "itemElement": "div"
+    }
+  }
+}

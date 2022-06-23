@@ -22,7 +22,7 @@
   },
   "rich-text#footer-store-text": {
     "props": {
-      "text": "COPYRIGHT © 2018. TODOS OS DIREITOS RESERVADOS À MARIA BONITA BIJUTERIAS LTDA. CNPJ 19677691000271. serrt",
+      "text": "COPYRIGHT © 2018. TODOS OS DIREITOS RESERVADOS À MARIA BONITA BIJUTERIAS LTDA. CNPJ 19677691000271.",
       "blockClass": "footer-store-text",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

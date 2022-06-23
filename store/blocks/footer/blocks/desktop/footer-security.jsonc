@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#footer-security-images": {
+    "children": [
+      "list-context.image-list#footer-security"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-security"
+      ]
+    }
+  },
+  "list-context.image-list#footer-security": {
+    "children": [
+      "list-context-renderer#footer-security"
+    ],
+    "props": {
+      "height": 50,
+      "images": [
+        {
+          "image": "assets/img/seguranca_google.png",
+          "width": "135px"
+        }
+      ]
+    }
+  },
+  "list-context-renderer#footer-security": {
+    "props": {
+      "blockClass": "footer-security",
+      "listElement": "div",
+      "itemElement": "div"
+    }
+  }
+}
