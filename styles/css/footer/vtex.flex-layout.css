@@ -1,13 +1,18 @@
 .flexRowContent--menu-footer {
   background-color: #efefef;
-  padding: 0rem 10rem;
+  padding: 0rem 8rem;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--footer-menus) {
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--last-block-menu) {
   height: auto !important;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel6--footer-menu) {
+  font-size: 14px;
+  font-weight: bold;
 }

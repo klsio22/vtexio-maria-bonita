@@ -55,7 +55,10 @@
   "rich-text#footer-find-us": {
     "props": {
       "text": "###### ENCONTRE-NOS \n avenida getúlio vargas, 1946 - centro \n feira de santana, ba \n cep: 44075425",
-      "blockClass": "footer-store-text",
+      "blockClass": [
+        "footer-menu",
+        "footer-store-text"
+      ],
       "textAlignment": "LEFT"
     }
   },
@@ -72,7 +75,10 @@
   "rich-text#footer-social-medias": {
     "props": {
       "text": "###### NOSSAS REDES SOCIAIS",
-      "blockClass": "footer-title-social-medias"
+      "blockClass": [
+        "footer-menu",
+        "footer-title-social-medias"
+      ]
     }
   }
 }
