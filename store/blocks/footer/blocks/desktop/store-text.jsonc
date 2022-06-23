@@ -22,7 +22,7 @@
   },
   "rich-text#footer-store-text": {
     "props": {
-      "text": "2021 © Razão Social da Empresa - CNPJ 00.000.000/0000-00. Todos os direitos reservados. \n Nome da Rua, 000, Nome do Bairro, Nome da Cidade/AA - CEP:00000-000",
+      "text": "COPYRIGHT © 2018. TODOS OS DIREITOS RESERVADOS À MARIA BONITA BIJUTERIAS LTDA. CNPJ 19677691000271. serrt",
       "blockClass": "footer-store-text",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -33,17 +33,18 @@
       "list-context-renderer#footer-store-text"
     ],
     "props": {
+      "blockClass":"footer-store-images",
       "height": 32,
       "images": [
         {
-          "image": "/assets/png/rodape_vetex.png",
+          "image": "assets/img/rodape_vetex.png",
           "width": "86px",
           "link": {
             "url": "#"
           }
         },
         {
-          "image": "/assets/png/rodape_sirius.png",
+          "image": "assets/img/rodape_sirius.png",
           "width": "86px",
           "link": {
             "url": "#"
