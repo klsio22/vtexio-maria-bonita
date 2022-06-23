@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#footer-store-text": {
+    "props": {
+      "blockClass": [
+        "container",
+        "footer-store-text"
+      ],
+      "paddingTop": 6
+    },
+    "children": [
+      "flex-layout.col#footer-store-text"
+    ]
+  },
+  "flex-layout.col#footer-store-text": {
+    "props": {
+      "rowGap": 4
+    },
+    "children": [
+      "rich-text#footer-store-text",
+      "list-context.image-list#footer-store-text"
+    ]
+  },
+  "rich-text#footer-store-text": {
+    "props": {
+      "text": "2021 © Razão Social da Empresa - CNPJ 00.000.000/0000-00. Todos os direitos reservados. \n Nome da Rua, 000, Nome do Bairro, Nome da Cidade/AA - CEP:00000-000",
+      "blockClass": "footer-store-text",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "list-context.image-list#footer-store-text": {
+    "children": [
+      "list-context-renderer#footer-store-text"
+    ],
+    "props": {
+      "height": 32,
+      "images": [
+        {
+          "image": "/assets/png/rodape_vetex.png",
+          "width": "86px",
+          "link": {
+            "url": "#"
+          }
+        },
+        {
+          "image": "/assets/png/rodape_sirius.png",
+          "width": "86px",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+  "list-context-renderer#footer-store-text": {
+    "props": {
+      "blockClass": "footer-store-text",
+      "listElement": "div",
+      "itemElement": "div"
+    }
+  }
+}

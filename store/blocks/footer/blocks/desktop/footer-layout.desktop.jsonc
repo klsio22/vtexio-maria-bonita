@@ -83,7 +83,8 @@
       ]
     },
     "children": [
-      "flex-layout.row#footer-links-desktop"
+      "flex-layout.row#footer-links-desktop",
+      "flex-layout.row#footer-store-text"
     ]
   },
   "flex-layout.row#footer-links-desktop": {
