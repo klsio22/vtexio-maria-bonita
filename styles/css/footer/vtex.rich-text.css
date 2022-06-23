@@ -1,0 +1,8 @@
+:global(.vtex-rich-text-0-x-link--footer-menu) {
+  color: #252525;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-store-text) {
+  color: #252525;
+}
